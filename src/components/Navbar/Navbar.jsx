@@ -1,6 +1,10 @@
-import { NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
+import { FaUser } from 'react-icons/fa';
+import './Navbar.css';
 
 const Navbar = () => {
+
+
     const navLinks = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/about'}>About Us</NavLink></li>
@@ -9,7 +13,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -19,18 +23,23 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <p className="text-2xl font-bold">elegant</p>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <div className="menu menu-horizontal px-1">
                         {navLinks}
-                    </ul>
+                    </div>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    
+                    <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                        <div className="w-10 rounded-full">
+                            <FaUser className="w-full h-full p-2 bg-black"></FaUser>
+                        </div>
+                    </label>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
