@@ -23,7 +23,7 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <p className="text-2xl font-bold">elegant</p>
+                    <p className="text-2xl font-bold">Eventopia</p>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <div className="menu menu-horizontal px-1">

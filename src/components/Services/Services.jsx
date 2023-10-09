@@ -1,20 +1,27 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
-const Services = () => {
+const Services = ({service}) => {
+
+    const { id, eventType, image } = service;
+
     return (
         <div>
             <div className="card card-compact bg-base-100 shadow-xl">
-                <figure><img src="https://i.ibb.co/fYTbMLh/birthday-event.jpg" alt="Shoes" /></figure>
+                <figure><img src={image} alt="Shoes" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Birthdays</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste molestias consectetur adipisci delectus ipsa sed, possimus, sunt illo, perspiciatis incidunt eius saepe.</p>
-                    <div className="card-actions justify-end">
-                        <Link to={'/service/details'}><button className="btn btn-primary">See Details</button></Link>
+                    <h2 className="card-title justify-center">{eventType}</h2>
+                    <div className="card-actions justify-center">
+                        <Link to={`/details/${id}`}><button className="btn btn-secondary">See Details</button></Link>
                     </div>
                 </div>
             </div>
         </div>
     );
 };
+
+Services.propTypes = {
+    service: PropTypes.object
+}
 
 export default Services;

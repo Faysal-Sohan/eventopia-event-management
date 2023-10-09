@@ -14,7 +14,8 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <Home></Home>,
+                loader: () => fetch('/services.json'),
             },
             {
                 path: '/login',
@@ -25,8 +26,9 @@ const router = createBrowserRouter([
                 element: <Register></Register>
             },
             {
-                path: '/service/details',
-                element: <ServiceDetails></ServiceDetails>
+                path: '/details/:id',
+                element: <ServiceDetails></ServiceDetails>,
+                loader: () => fetch('/services.json'),
             }
         ]
     }

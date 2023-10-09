@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "eventType": "Birthday Party",
+        "image": "https://i.ibb.co/fYTbMLh/birthday-event.jpg",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Cake and Catering",
+            "Entertainment",
+            "Party Favors"
+        ]
+    },
+    {
+        "id": 2,
+        "eventType": "Wedding",
+        "image": "https://i.ibb.co/kxSyThX/wedding-event.jpg",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Catering",
+            "Floral Arrangements",
+            "Photography and Videography",
+            "Music and Entertainment",
+            "Wedding Planning"
+        ]
+    },
+    {
+        "id": 3,
+        "eventType": "Anniversary Celebration",
+        "image": "https://i.ibb.co/XWqZBt3/anniversary-event.jpg",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Catering",
+            "Gifts and Surprises",
+            "Themed Decor",
+            "Entertainment"
+        ]
+    },
+    {
+        "id": 4,
+        "eventType": "Retirement Party",
+        "image": "https://i.ibb.co/QXZHq03/retirement-event.jpg",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Catering",
+            "Guest Invitations",
+            "Farewell Speeches",
+            "Memory Montage"
+        ]
+    },
+    {
+        "id": 5,
+        "eventType": "Baby Shower",
+        "image": "https://i.ibb.co/S5shv00/baby-shower-event.jpg",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Catering",
+            "Baby-themed Decor",
+            "Games and Activities",
+            "Gift Registry"
+        ]
+    },
+    {
+        "id": 6,
+        "eventType": "Engagement Party",
+        "image": "https://i.ibb.co/VC4RcQt/engagement-party-event.jpg",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Catering",
+            "Engagement Cake",
+            "Music and Entertainment",
+            "Engagement Announcements"
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "John's 30th Birthday Bash",
+        "image": "https://i.ibb.co/P9JxMgz/john-s-birthday.jpg",
+        "details": "Come celebrate John's milestone birthday with music, dancing, and lots of fun!",
+        "date": "2024-05-10",
+        "time": "19:00",
+        "venue": "123 Main Street, Anytown, USA"
+    },
+    {
+        "id": 2,
+        "title": "Sarah and Michael's Wedding",
+        "image": "https://i.ibb.co/vDKLh2m/sarah-micheal-s-wedding.jpg",
+        "details": "Join us in celebrating the union of Sarah and Michael. Ceremony followed by dinner and dancing.",
+        "date": "2024-08-18",
+        "time": "15:30",
+        "venue": "St. James Church, 789 Elm Avenue, Another Town, USA"
+    },
+    {
+        "id": 3,
+        "title": "25th Wedding Anniversary of Jane and Mark",
+        "image": "https://i.ibb.co/M9gwG52/anniversary.jpg",
+        "details": "A silver jubilee celebration of love and togetherness. Dinner, music, and heartfelt speeches.",
+        "date": "2024-11-05",
+        "time": "18:00",
+        "venue": "The Grand Banquet Hall, 456 Oak Street, Yet Another Town, USA"
+    },
+    {
+        "id": 4,
+        "title": "Emily and Alex's Engagement Party",
+        "image": "https://i.ibb.co/QmGmpjS/engagement-event-ongoing.jpg",
+        "details": "Join us for a night of celebration as Emily and Alex announce their engagement.",
+        "date": "2025-02-14",
+        "time": "20:00",
+        "venue": "The Riverside Lounge, 789 Maple Avenue, Anytown, USA"
+    },
+    {
+        "id": 5,
+        "title": "Farewell Party for David",
+        "image": "https://i.ibb.co/TBQyh9h/david-retirement-party.jpg",
+        "details": "Wishing David a happy retirement! Join us for dinner, drinks, and fond memories.",
+        "date": "2025-06-08",
+        "time": "17:00",
+        "venue": "The Green Garden Restaurant, 101 Pine Street, Another Town, USA"
+    },
+    {
+        "id": 6,
+        "title": "Baby Shower for Lisa",
+        "image": "https://i.ibb.co/Yy7Bbb4/baby-shower-ongoing-event.jpg",
+        "details": "Celebrating the upcoming arrival of Lisa's little one. Games, gifts, and joyous moments.",
+        "date": "2025-09-20",
+        "time": "14:00",
+        "venue": "Lisa's Home, 222 Cherry Avenue, Yet Another Town, USA"
+    }
+]

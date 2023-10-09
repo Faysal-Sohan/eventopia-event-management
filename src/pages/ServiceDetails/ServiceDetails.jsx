@@ -1,13 +1,31 @@
+import { useLoaderData, useParams } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 
 const ServiceDetails = () => {
+
+    const services = useLoaderData();
+    const {id} = useParams();
+
+    const searchService = services.find(data => data.id == id)
+    console.log(searchService)
+
     return (
-        <div className="container mx-auto">
-            <Navbar></Navbar>
-            <div>
-                <img src="https://i.ibb.co/fYTbMLh/birthday-event.jpg" alt="" className="w-full h-96 md:h-[600px] rounded-lg mt-4"/>
-                <h3 className="text-2xl font-semibold mt-4">Birthday Event</h3>
-                <p className="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, officiis debitis. Eos veniam nemo eum vero sapiente voluptates ea rerum architecto recusandae atque. Dolorum, quod accusantium unde autem suscipit cumque laborum aperiam distinctio ipsum eos architecto sapiente inventore delectus cum. Atque eligendi ipsum officiis sunt dignissimos corporis adipisci explicabo quas pariatur, culpa autem consequuntur a, doloribus nobis sint quibusdam, sequi corrupti hic! Repellendus voluptate excepturi fuga voluptas? Et repudiandae architecto, nulla a ea illo itaque eaque modi aliquam eum optio dolorem laudantium aliquid aspernatur reiciendis, facilis fuga in asperiores quisquam assumenda, eligendi voluptatum voluptates adipisci. Eaque enim itaque asperiores dolorem. Dignissimos exercitationem totam dicta et esse quo, dolorum harum? Exercitationem libero, commodi ex reprehenderit odio cum reiciendis eveniet eum laudantium necessitatibus. A, iste recusandae asperiores repudiandae incidunt vitae ducimus obcaecati voluptatem qui numquam modi aperiam veniam id est sequi maxime provident explicabo deserunt facere. Temporibus soluta voluptate blanditiis quibusdam illum sapiente ipsum fuga nemo dicta porro qui nostrum, id facilis tenetur eos itaque suscipit placeat. Eligendi laboriosam maxime quam dicta doloribus illum unde debitis, magnam consectetur sed alias quaerat error ut? Assumenda quas deleniti, obcaecati ab nostrum, temporibus repudiandae expedita aliquam cumque, accusamus beatae vel veniam recusandae alias explicabo odio.</p>
+        <div className="bg-purple-950 text-white pb-12 min-h-screen">
+            <div className="container mx-auto">
+                <Navbar></Navbar>
+                <div className="grid lg:grid-cols-2 grid-cols-1 mx-3 gap-12 place-items-center mt-16 md:mt-36">
+                    <img src={searchService.image} alt="" className="w-full rounded"/>
+                    <div className="space-y-4">
+                        <h3 className="text-5xl font-semibold">{searchService.eventType}</h3>
+                        <p className="text-3xl font-medium">Our services includes:</p>
+                        <ul className="text-2xl font-medium space-y-2">
+                            {
+                                searchService.servicesOffered.map((service, idx) => <li key={idx}><span className="mx-2">{idx+1}.</span>{service}</li>)
+                            }
+                        </ul>
+                        <button className="px-4 py-2 bg-pink-700 rounded-xl text-2xl font-medium">Create Event</button>
+                    </div>
+                </div>
             </div>
         </div>
     );
