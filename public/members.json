@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "position": "Event Manager",
+        "email": "john@example.com",
+        "phone": "+1 (123) 456-7890",
+        "image": "https://i.ibb.co/4g9rRYx/smart-looking-teacher.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Alice Johnson",
+        "position": "Marketing Coordinator",
+        "email": "alice@example.com",
+        "phone": "+1 (234) 567-8901",
+        "image": "https://i.ibb.co/6Nh7YLc/portrait-young-tender-woman-with-healthy-freckled-skin.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Michael Davis",
+        "position": "Logistics Specialist",
+        "email": "michael@example.com",
+        "phone": "+1 (345) 678-9012",
+        "image": "https://i.ibb.co/Bq9rfM6/portrait-young-handsome-business-man.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Emily Wilson",
+        "position": "Creative Director",
+        "email": "emily@example.com",
+        "phone": "+1 (456) 789-0123",
+        "image": "https://i.ibb.co/LrYYhxM/vince-veras-AJIq-ZDAUD7-A-unsplash.jpg"
+    }
+]

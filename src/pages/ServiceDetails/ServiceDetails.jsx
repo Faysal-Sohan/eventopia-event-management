@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 
 const ServiceDetails = () => {
@@ -20,10 +20,12 @@ const ServiceDetails = () => {
                         <p className="text-3xl font-medium">Our services includes:</p>
                         <ul className="text-2xl font-medium space-y-2">
                             {
-                                searchService.servicesOffered.map((service, idx) => <li key={idx}><span className="mx-2">{idx+1}.</span>{service}</li>)
+                                searchService.servicesOffered.map((service, idx) => <li key={idx}>
+                                    <span className="mx-2">{idx+1}.</span>{service}</li>)
                             }
                         </ul>
-                        <button className="px-4 py-2 bg-pink-700 rounded-xl text-2xl font-medium">Create Event</button>
+                        <p className="text-3xl font-medium">Booking Price: {searchService.bookingPrice}</p>
+                        <Link to={'/create'}><button className="px-4 py-2 bg-pink-700 rounded-xl text-2xl font-medium mt-4">Create Event</button></Link>
                     </div>
                 </div>
             </div>

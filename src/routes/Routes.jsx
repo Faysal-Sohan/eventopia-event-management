@@ -5,6 +5,9 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
+import PrivateRoute from "./PrivateRoute";
+import Create from "../pages/Create/Create";
+import Booked from "../pages/Booked/Booked";
 
 const router = createBrowserRouter([
     {
@@ -27,8 +30,18 @@ const router = createBrowserRouter([
             },
             {
                 path: '/details/:id',
-                element: <ServiceDetails></ServiceDetails>,
+                element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
                 loader: () => fetch('/services.json'),
+            },
+            {
+                path: '/create',
+                element: <PrivateRoute><Create></Create></PrivateRoute>,
+                loader: () => fetch('/services.json')
+            },
+            {
+                path: '/booked',
+                element: <PrivateRoute><Booked></Booked></PrivateRoute>,
+                loader: () => fetch('/services.json')
             }
         ]
     }

@@ -3,17 +3,20 @@
         "id": 1,
         "eventType": "Birthday Party",
         "image": "https://i.ibb.co/fYTbMLh/birthday-event.jpg",
+        "details": "A fun-filled celebration for your special day with your close ones!",
         "servicesOffered": [
             "Venue Decoration",
             "Cake and Catering",
             "Entertainment",
             "Party Favors"
-        ]
+        ],
+        "bookingPrice": "$1000"
     },
     {
         "id": 2,
         "eventType": "Wedding",
         "image": "https://i.ibb.co/kxSyThX/wedding-event.jpg",
+        "details": "Elegant and memorable wedding ceremonies tailored to your dreams.",
         "servicesOffered": [
             "Venue Decoration",
             "Catering",
@@ -21,54 +24,63 @@
             "Photography and Videography",
             "Music and Entertainment",
             "Wedding Planning"
-        ]
+        ],
+        "bookingPrice": "$5000"
     },
     {
         "id": 3,
-        "eventType": "Anniversary Celebration",
-        "image": "https://i.ibb.co/XWqZBt3/anniversary-event.jpg",
-        "servicesOffered": [
-            "Venue Decoration",
-            "Catering",
-            "Gifts and Surprises",
-            "Themed Decor",
-            "Entertainment"
-        ]
-    },
-    {
-        "id": 4,
-        "eventType": "Retirement Party",
-        "image": "https://i.ibb.co/QXZHq03/retirement-event.jpg",
-        "servicesOffered": [
-            "Venue Decoration",
-            "Catering",
-            "Guest Invitations",
-            "Farewell Speeches",
-            "Memory Montage"
-        ]
-    },
-    {
-        "id": 5,
-        "eventType": "Baby Shower",
-        "image": "https://i.ibb.co/S5shv00/baby-shower-event.jpg",
-        "servicesOffered": [
-            "Venue Decoration",
-            "Catering",
-            "Baby-themed Decor",
-            "Games and Activities",
-            "Gift Registry"
-        ]
-    },
-    {
-        "id": 6,
         "eventType": "Engagement Party",
         "image": "https://i.ibb.co/VC4RcQt/engagement-party-event.jpg",
+        "details": "Celebrate your love story with a perfect engagement party.",
         "servicesOffered": [
             "Venue Decoration",
             "Catering",
             "Engagement Cake",
             "Music and Entertainment",
             "Engagement Announcements"
-        ]
+        ],
+        "bookingPrice": "$800"
+    },
+    {
+        "id": 4,
+        "eventType": "Anniversary Celebration",
+        "image": "https://i.ibb.co/XWqZBt3/anniversary-event.jpg",
+        "details": "Commemorate your years together with a beautiful anniversary celebration.",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Catering",
+            "Gifts and Surprises",
+            "Themed Decor",
+            "Entertainment"
+        ],
+        "bookingPrice": "$1200"
+    },
+    {
+        "id": 5,
+        "eventType": "Retirement Party",
+        "image": "https://i.ibb.co/QXZHq03/retirement-event.jpg",
+        "details": "A heartfelt farewell and a great beginning to the retired life.",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Catering",
+            "Guest Invitations",
+            "Farewell Speeches",
+            "Memory Montage"
+        ],
+        "bookingPrice": "$900"
+    },
+    {
+        "id": 6,
+        "eventType": "Baby Shower",
+        "image": "https://i.ibb.co/S5shv00/baby-shower-event.jpg",
+        "details": "Celebrate the upcoming arrival of your little one with joy and excitement.",
+        "servicesOffered": [
+            "Venue Decoration",
+            "Catering",
+            "Baby-themed Decor",
+            "Games and Activities",
+            "Gift Registry"
+        ],
+        "bookingPrice": "$700"
     }
 ]
