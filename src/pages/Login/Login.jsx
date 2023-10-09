@@ -36,7 +36,9 @@ const Login = () => {
             toast("Logged in successfully!")
             location?.state ? navigate(location.state) : navigate('/')
         })
-        .catch(error => console.log(error))
+        .catch(error => {
+            toast(error.message)
+        })
     }
 
     return (
