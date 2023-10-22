@@ -7,3 +7,5 @@
     i. Password must be at least 6 characters long. <br/>
     ii. Password must contain at least one capital letter & one special characters.
 5. Only logged in users can see event service details, book an event and can browse his booked events.
+
+Project Live Link: https://social-event-managemanet.web.app/
